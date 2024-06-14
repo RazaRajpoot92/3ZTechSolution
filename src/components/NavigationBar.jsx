@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IoMenu } from "react-icons/io5";
 import { navItems } from '../data/navItems';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo2.png'
+import logo from '../assets/logohd.png'
 
 const NavigationBar = () => {
     const [mobMenu, setMobMenu] = useState(false);
@@ -11,8 +11,8 @@ const NavigationBar = () => {
         <div className='px-5 py-3  bg-gray-900 sticky top-0 z-50  flex items-center justify-between'>
             {/* logo */}
             <div className='flex items-center gap-3'>
-                {/* <img src={logo} className='w-[170px] h-[90px]' alt="" /> */}
-                <h2 className='text-white font-semibold text-2xl'>3Z Tech Solution</h2>
+                <img src={logo} className='w-[60px] h-[50px]' alt="" />
+                {/* <h2 className='text-white font-semibold text-2xl'>3Z Tech Solution</h2> */}
             </div>
 
             {/* Nav items, lg screen navbar */}
@@ -20,7 +20,7 @@ const NavigationBar = () => {
                 {navItems.map((page)=>(
                     <Link to={page.path} className='hover:text-indigo-500' key={page.name} href="">{page.name}</Link>
                 ))}
-                <a className='py-2 px-4 ease-in duration-300 border border-indigo-500 bg-indigo-500 text-white rounded-full hover:bg-transparent' href="#">Get started</a>
+                <a className='py-2 px-4 ease-in duration-300 border border-blue-700 bg-blue-700 text-white rounded-full hover:bg-transparent' href="#">Get started</a>
             </div>
 
             {/* Mobile navbar */}
@@ -36,7 +36,7 @@ const NavigationBar = () => {
                     {navItems.map((page)=>(
                         <Link to={page.path} className='hover:text-blue-500' key={page.name} href="">{page.name}</Link>
                         ))}
-                    <a className='py-2 px-4 bg-gradient-to-tr hover:bg-transparent from-indigo-500 to-purple-400 text-white rounded-lg' href="#">Get started</a>
+                    <a className='py-2 px-4 bg-gradient-to-tr hover:bg-transparent from-indigo-700 to-purple-400 text-white rounded-lg' href="#">Get started</a>
                 </div>
 
             </div>

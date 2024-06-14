@@ -20,9 +20,9 @@ const Hero = () => {
                 and possibilities are limitless.
             </p>
             <div className='mt-5 flex flex-col sm:flex-row gap-4'>
-                <a href="#" className='  py-3 px-8 ease-in duration-200 hover:bg-transparent border border-indigo-500 rounded-sm bg-indigo-500 text-white'
+                <a href="#" className='  py-3 px-8 ease-in duration-200 hover:bg-transparent border border-blue-700 rounded-sm bg-blue-700 text-white'
                 >Get started</a>
-                <a href="#" className='py-3 px-8 hover:bg-purple-500 ease-in duration-300 rounded-sm border border-purple-500 text-white'
+                <a href="#" className='py-3 px-8 hover:bg-blue-500 ease-in duration-300 rounded-sm border border-blue-500 text-white'
                 >How it works</a>
             </div>
         </div>
