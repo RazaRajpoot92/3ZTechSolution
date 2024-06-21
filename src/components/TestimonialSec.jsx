@@ -13,6 +13,7 @@ const TestimonialSec = () => {
         adaptiveHeight:true,
         slidesToShow: 4,
         arrows:false,
+        autoplay:true,
         slidesToScroll: 1,
         responsive: [
             {
@@ -48,7 +49,7 @@ const TestimonialSec = () => {
     <div className='py-20 my-10 flex flex-col items-center justify-center bg-gradient-to-tr from-blue-300 to-gray-200 '>
         
         <h1 className='text-center text-slate-700 text-5xl font-semibold'>What Clients Say</h1>
-        <p className=' w-full text-center md:w-[70%] 2xl:w-1/2 text-sm md:text-[18px] leading-6 text-slate-500 mt-10'>Client testimonials speak volumes about our commitment to delivering exceptional IT solutions. 
+        <p className=' w-full text-center md:w-[70%] 2xl:w-1/2 text-sm md:text-[18px] leading-6 text-slate-500 my-10'>Client testimonials speak volumes about our commitment to delivering exceptional IT solutions. 
         Whether it's optimizing financial processes, boosting brand awareness, or revolutionizing sales strategies, our team's dedication shines through in every project.
         
         Discover why businesses trust us to innovate and elevate their operations.</p>

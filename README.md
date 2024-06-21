@@ -1,8 +1,2 @@
-# React + Vite
+Welcome to the GitHub repository for the development of the 3Z Tech Solutions website! Here, we're leveraging the powerful MERN stack (MongoDB, Express.js, React.js, Node.js) to create a dynamic and responsive platform. Our goal is to showcase our expertise in delivering innovative software solutions tailored to modern business needs. Stay tuned for updates as we continue to build and refine this site to reflect our commitment to excellence in technology.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
