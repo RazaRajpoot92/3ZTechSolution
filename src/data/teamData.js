@@ -22,7 +22,7 @@ export const teamData = [
         ]
     },
     {
-        name:"James White",
+        name:"James White4",
         degnization:"CEO & Founder",
         img:team2,
         socialLinks:[
@@ -38,7 +38,7 @@ export const teamData = [
         ]
     },
     {
-        name:"James White",
+        name:"James White1",
         degnization:"CEO & Founder",
         img:team1,
         socialLinks:[
@@ -54,7 +54,7 @@ export const teamData = [
         ]
     },
     {
-        name:"James White",
+        name:"James White2",
         degnization:"CEO & Founder",
         img:team2,
         socialLinks:[

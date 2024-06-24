@@ -8,7 +8,7 @@ const NavigationBar = () => {
     const [mobMenu, setMobMenu] = useState(false);
 
     return (
-        <div className='px-5 py-3  bg-gray-900 sticky top-0 z-50  flex items-center justify-between'>
+        <div className='px-5 2xl:px-40 py-3  bg-gray-900 sticky top-0 z-50  flex items-center justify-between  '>
             {/* logo */}
             <div className='flex items-center gap-3'>
                 <img src={logo} className='w-[60px] h-[50px]' alt="" />

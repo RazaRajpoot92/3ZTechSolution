@@ -30,3 +30,23 @@ body{
 .custom-shape-divider-bottom-1717760727 .shape-fill {
     fill: #FFFFFF;
 }
+
+.custom-shape-divider-top-1719234983 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1719234983 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.custom-shape-divider-top-1719234983 .shape-fill {
+    fill: #FFFFFF;
+}

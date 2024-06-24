@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    @keyframes move {
+        0%{
+            transform: translateY(-10%);
+        }
+        100%{
+            transform: translateY(10%);
+        }
+    }
+
+    .animate-move {
+        animation: move 1.5s ease-in-out infinite alternate
+    }
+}

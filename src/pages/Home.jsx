@@ -6,6 +6,7 @@ import AboutUs from '../components/AboutUs.jsx'
 import TestimonialSec from '../components/TestimonialSec.jsx'
 import TeamSec from '../components/TeamSec.jsx'
 import GetStartedbanner from '../components/GetStartedbanner.jsx'
+import Footer from '../components/Footer.jsx'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <TestimonialSec />
         <TeamSec />
         <GetStartedbanner />
+        <Footer />
     </div>
   )
 }

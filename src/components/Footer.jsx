@@ -1,0 +1,155 @@
+import React from 'react'
+import logo from "../assets/logohd.png"
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { MdCopyright } from "react-icons/md";
+
+
+
+
+const Footer = () => {
+
+
+  const year = new Date().getFullYear()
+  
+  const socialLinks = [{
+    icon:FaSquareFacebook,
+    link:"https://www.facebook.com"
+    },
+    {  
+      icon: FaLinkedin ,
+      link:"https://www.linkedin.com"
+    },
+    {
+      icon:FaInstagramSquare,
+      link:"https://www.instagram.com"
+    },
+    {
+      icon:FaTwitterSquare,
+      link:"https://www.twitter.com"
+    }
+  
+  ]
+
+  const links = [{
+    name:"Home",
+    path:"/"
+    },
+    {
+      name:"Services",
+      path:"/services",
+    },
+    {
+      name:"Portfolio",
+      path:"/portfolio",
+    },
+    {
+      name:"Team",
+      path:"/team",
+    },
+    {
+      name:"About Us",
+      path:'aboutus'
+    }
+]
+
+const getInTouch = [
+  {
+    name:"Address",
+    icon:IoLocationSharp,
+    values:["Mustafa Town Lahore, Pakistan"]
+  },
+  {
+    name:"mobile",
+    icon:FaPhoneAlt,
+    values:["+314-9442-515","+324-9442-515"]
+  },
+  {
+    name:"mail",
+    icon: IoMdMail,
+    values:["hello@3ztechsolution.com","support@3ztechsolution.com"]
+  }
+]
+
+  return (
+    <footer className='mt-20 pt-5 relative bg-black  text-white'>
+            {/* Shape Divider */}
+          <div class="custom-shape-divider-top-1719234983">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+            </svg>
+          </div>
+
+
+        <div className='flex flex-col items-center gap-5 py-10'>
+            <img className='w-20 h-20 animate-move' src={logo} alt="logo" />
+            <p className='w-[60%] text-gray-300 text-center'>Empowering businesses with cutting-edge IT solutions, 3Z Tech Solution pioneers innovation.
+            From scalable software development to seamless tech support, we redefine excellence in IT services.</p>
+        </div>
+
+        <div className='flex items-center justify-center gap-2'>
+          <div className='w-[200px] rounded-full  h-[2px] bg-indigo-500'></div>
+          <div className='flex gap-2'>
+            {
+              socialLinks.map((item)=>(
+                <a 
+                key={item.link}
+                href={item.link} 
+                target='_blank'
+                className='hover:text-indigo-400  hover:scale-125 ease-in-out duration-300'
+                rel='noopener noreferrer'
+                >{<item.icon size={24}  />}</a>
+              ))
+            }
+          </div>
+          <div className='w-[200px] rounded-full h-[2px] bg-indigo-500'></div>
+          
+        </div>
+
+        <div className='flex justify-around py-10'>
+            <div className='flex gap-3 flex-col'>
+              <h2 className='text-2xl '>Explore</h2>
+              <div className='w-[80px] mt-[-10px] rounded-full h-[2px] bg-indigo-500'></div>
+              
+
+              {links.map((link)=>(
+                <a
+                key={link.name}
+                className='text-gray-200 hover:text-indigo-500 ease-in-out duration-300'
+                href={link.path}>{link.name}</a>
+              ))}
+            </div>
+
+            <div className='flex gap-6 flex-col'>
+              <h2 className='text-2xl'>Get in Touch</h2>
+              <div className='w-[140px] mt-[-20px] rounded-full h-[2px] bg-indigo-500'></div>
+              
+
+              {getInTouch.map((data)=>(
+                <div key={data.name} className='flex items-center gap-3'>
+                  <span className='h-10 w-10 rounded-full bg-gradient-to-tr to-indigo-500 from-blue-500 flex items-center justify-center'>{<data.icon size={20} />}</span>
+                  
+                  <div className='flex flex-col gap-1'>
+                    {data.values.map((value)=>(
+                      <p key={value} className='text-sm'>{value}</p>
+                    ))}
+                  </div>
+                
+                </div>
+              ))}
+            </div>
+        </div>
+
+        <div className='h-20 flex justify-center items-center  text-white text-[16px] bg-gradient-to-br to-slate-700 from-indigo-500'>
+              <p className='flex items-center gap-1'>Copyright <MdCopyright /> <span>{year}</span> 3Z Tech Solution. All Rights Reserved. </p>
+        </div>
+    </footer>
+)
+}
+
+export default Footer

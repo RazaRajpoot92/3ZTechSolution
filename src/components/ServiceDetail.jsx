@@ -6,7 +6,7 @@ import ServiceLabs from './ServiceLabs';
 
 const ServiceDetail = ({data, sec}) => {
     const [sec1, setSec] = useState(sec%2===0?true:false)
-    console.log(sec1)
+ 
   return (
     <div className={`flex flex-col ${sec1?"lg:flex-row":"lg:flex-row-reverse"}  2xl:px-52 ${sec1?"bg-gray-100":"bg-white"} py-20 px-5`} >
         {/* Detail service content */}
