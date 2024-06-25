@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className='my-32'>
         {/* Service heading, content */}
-        <div className=' flex flex-col gap-4 justify-center items-center'>
+        <div data-aos="fade-up" className=' flex flex-col gap-4 justify-center items-center'>
             <h2 className='text-5xl text-center font-bold'><span className='text-indigo-500'>Our</span> Services</h2>
             <p className=' px-3 md:w-[600px] text-center text-gray-500'>
                 We offer a comprehensive range of services designed to bring your digital vision to life.

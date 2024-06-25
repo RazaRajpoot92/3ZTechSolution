@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='relative p-10 lg:p-20 2xl:p-48 2xl:min-h-[80vh] z-[10] flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:items-center min-h-full'>
         
         {/* Hero content */}
-        <div className=' lg:w-[500px] xl:flex-1  mb-10 flex md:w-[80%] items-center flex-col gap-6'>
+        <div data-aos="fade-right"  className=' lg:w-[500px] xl:flex-1  mb-10 flex md:w-[80%] items-center flex-col gap-6'>
             <h2 className=' text-sm '>Unleash Your Business's Potential with</h2>
             <h1 className='text-white font-bold text-4xl sm:text-5xl lg:text-[50px] xl:text-[70px]'> 3Z Tech Solution</h1>
             <p className='text-gray-300 md:text-sm lg:text-[16px] lg:leading-7'>
@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
        
        {/* Hero image */}
-        <div className=' w-[400px]  md:w-[500px] xl:flex-1'>
+        <div data-aos="fade-left"  className=' w-[400px]  md:w-[500px] xl:flex-1'>
             <img className='w-full' src={heroImage} alt="" />    
         </div>    
     

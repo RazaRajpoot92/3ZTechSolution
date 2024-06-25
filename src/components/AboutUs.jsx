@@ -3,9 +3,9 @@ import aboutBanner from "../assets/about-banner.jpg"
 
 const AboutUs = () => {
   return (
-    <div className='flex flex-col items-center  lg:flex-row my-20 px-5 md:px-10 2xl:px-20'>
+    <div className='flex overflow-x-hidden flex-col items-center  lg:flex-row my-20 px-5 md:px-10 2xl:px-20'>
         {/* About content */}
-        <div className=' lg:w-[70%] items-center lg:items-start p-5 lg:pr-16 flex flex-col justify-center gap-10'>
+        <div data-aos="fade-right" className=' lg:w-[70%] items-center lg:items-start p-5 lg:pr-16 flex flex-col justify-center gap-10'>
             
             <div className='flex flex-col items-center lg:items-start gap-3'>
                 <h1 className=' text-3xl md:text-6xl font-bold'>About Us</h1>
@@ -38,7 +38,7 @@ const AboutUs = () => {
 
         {/* About Image */}
         <div>
-            <img  src={aboutBanner} className="rounded-lg w-[500px] " alt="" />
+            <img data-aos="zoom-in" src={aboutBanner} className="rounded-lg w-[500px] " alt="" />
         </div>
     
     </div>

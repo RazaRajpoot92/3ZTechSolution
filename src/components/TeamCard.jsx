@@ -6,7 +6,7 @@ const TeamCard = ({data}) => {
 
     const {name, degnization,img,socialLinks} = data
     return (
-        <div 
+        <div data-aos="zoom-in"
             onMouseEnter={() => setShowOverlay(true)}
             onMouseLeave={() => setShowOverlay(false)}
             className='relative flex items-center  transition-all duration-500 gap-3 flex-col w-[250px] overflow-hidden'>

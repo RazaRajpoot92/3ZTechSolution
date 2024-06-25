@@ -8,9 +8,9 @@ const ServiceDetail = ({data, sec}) => {
     const [sec1, setSec] = useState(sec%2===0?true:false)
  
   return (
-    <div className={`flex flex-col ${sec1?"lg:flex-row":"lg:flex-row-reverse"}  2xl:px-52 ${sec1?"bg-gray-100":"bg-white"} py-20 px-5`} >
+    <div className={`flex flex-col ${sec1?"lg:flex-row":"lg:flex-row-reverse"} overflow-x-hidden  2xl:px-52 ${sec1?"bg-gray-100":"bg-white"} py-20 px-5`} >
         {/* Detail service content */}
-        <div className=' w-full lg:w-1/2 flex items-center flex-col gap-6'>
+        <div data-aos="fade-right" className=' w-full lg:w-1/2 flex items-center flex-col gap-6'>
             <h1 className='font-bold text-2xl lg:text-4xl'>{data.serviceName}</h1>
             <p className='text-gray-500 text-sm md:text-lg px-10 lg:px-3 leading-6'> {data.description}</p>
 
@@ -35,7 +35,7 @@ const ServiceDetail = ({data, sec}) => {
         {/* Service Image */}
 
         <div className=' w-full flex justify-center lg:flex-1'>
-            <img className='w-[600px] ' src={data.bannerImage} alt="" />
+            <img data-aos="fade-left" className='w-[600px] ' src={data.bannerImage} alt="" />
         </div>
 
     </div>
