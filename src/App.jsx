@@ -5,17 +5,23 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   AOS.init({
-    duration:1400,
+    duration:1200,
+    offset:100,
   });
  
   return (
     <>
     <div className=''>
       <NavigationBar />
-      <Outlet />
+      <ScrollToTop>
+        <Outlet />
+      </ScrollToTop>
+      <Footer />
     </div>
     </>
   )

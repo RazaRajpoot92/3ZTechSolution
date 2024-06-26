@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceCard from './ServiceCard'
 import { servicesData } from '../data/services'
 
-const Services = () => {
+const ServicesContainer = () => {
   return (
     <div className='my-32'>
         {/* Service heading, content */}
@@ -26,4 +26,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default ServicesContainer

@@ -7,10 +7,6 @@ export const navItems = [
     path:"/services"
    },
    {
-    name:"Portfolio",
-    path:"/portfolio",
-   },
-   {
     name:"About Us",
     path:"/aboutus",
    },
