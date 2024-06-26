@@ -4,7 +4,7 @@ import { contactData } from '../data/contactData'
 
 const ContactInfoCon = () => {
   return (
-    <div className='flex py-10 gap-3 justify-center'>
+    <div className='flex flex-wrap py-10 gap-5 justify-center'>
        
        {
         contactData.map((item)=>(
