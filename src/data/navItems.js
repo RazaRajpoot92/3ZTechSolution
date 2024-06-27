@@ -8,11 +8,11 @@ export const navItems = [
    },
    {
     name:"About Us",
-    path:"/aboutus",
+    path:"/about-us",
    },
    {
     name:"Contact Us",
-    path:"/contactus"
+    path:"/contact-us"
    }
 
 ]

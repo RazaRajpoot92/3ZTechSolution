@@ -28,11 +28,11 @@ const appRouter = createBrowserRouter([
         element:<Portfolio />
       },
       {
-        path:"/contactus",
+        path:"/contact-us",
         element:<ContactUs />
       },
       {
-        path:"/aboutus",
+        path:"/about-us",
         element:<AboutUs />
       }
     ],
