@@ -11,7 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   AOS.init({
     duration:1200,
-    offset:100,
+    offset:140,
   });
  
   return (

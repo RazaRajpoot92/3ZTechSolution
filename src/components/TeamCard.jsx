@@ -9,11 +9,11 @@ const TeamCard = ({data}) => {
         <div data-aos="zoom-in"
             onMouseEnter={() => setShowOverlay(true)}
             onMouseLeave={() => setShowOverlay(false)}
-            className='relative flex items-center  transition-all duration-500 gap-3 flex-col w-[250px] overflow-hidden'>
+            className='relative flex items-center  transition-all duration-500 gap-3 flex-col w-[400px] overflow-hidden'>
             
             {/* Image and overlay container */}
             <div className='relative'>
-                <img className='w-full' src={img} alt="Team Member" />
+                <img className='w-[380px] h-[380px]' src={img} alt="Team Member" />
                 
                 {/* Overlay with sliding animation */}
                 <div 

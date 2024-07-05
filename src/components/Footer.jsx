@@ -24,7 +24,7 @@ const Footer = () => {
     },
     {  
       icon: FaLinkedin ,
-      link:"https://www.linkedin.com"
+      link:"https://www.linkedin.com/company/3z-tech-solutions"
     },
     {
       icon:FaInstagramSquare,
@@ -45,17 +45,10 @@ const Footer = () => {
       name:"Services",
       path:"/services",
     },
-    {
-      name:"Portfolio",
-      path:"/portfolio",
-    },
-    {
-      name:"Team",
-      path:"/team",
-    },
+  
     {
       name:"About Us",
-      path:'aboutus'
+      path:'about-us'
     }
 ]
 
@@ -63,7 +56,7 @@ const getInTouch = [
   {
     name:"Address",
     icon:IoLocationSharp,
-    values:["Mustafa Town Lahore, Pakistan"]
+    values:["Wahdat Colony Lahore, Pakistan"]
   },
   {
     name:"mobile",

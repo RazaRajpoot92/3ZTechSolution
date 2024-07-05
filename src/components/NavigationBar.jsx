@@ -20,7 +20,7 @@ const NavigationBar = () => {
                 {navItems.map((page)=>(
                     <Link to={page.path} className='hover:text-indigo-500' key={page.name} href="">{page.name}</Link>
                 ))}
-                <a className='py-2 px-4 ease-in duration-300 border border-blue-700 bg-blue-700 text-white rounded-full hover:bg-transparent' href="#">Get started</a>
+                <Link to={"/contact-us"} className='py-2 px-4 ease-in duration-300 border border-blue-700 bg-blue-700 text-white rounded-full hover:bg-transparent' >Contact Us</Link>
             </div>
 
             {/* Mobile navbar */}
@@ -36,7 +36,7 @@ const NavigationBar = () => {
                     {navItems.map((page)=>(
                         <Link to={page.path} className='hover:text-blue-500' key={page.name} href="">{page.name}</Link>
                         ))}
-                    <a className='py-2 px-4 bg-gradient-to-tr hover:bg-transparent from-indigo-700 to-purple-400 text-white rounded-lg' href="#">Get started</a>
+                    <a className='py-2 px-4 bg-gradient-to-tr hover:bg-transparent from-indigo-700 to-purple-400 text-white rounded-lg' href="#">Contact Us</a>
                 </div>
 
             </div>
