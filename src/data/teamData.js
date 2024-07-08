@@ -7,45 +7,29 @@ import { FaLinkedin } from "react-icons/fa6";
 
 export const teamData = [
     {
-        name:"James White",
+        name:"Nalain Zahra",
         degnization:"CEO & Founder",
         img:team1,
         socialLinks:[
             {   name:"email",
                 icon: MdEmail,
-                url:"razarajpoot99598@gmail.com"
+                url:"nalainzahraofficial@gmail.com"
             },
             {
                 name:"linkedIn",
                 icon:FaLinkedin,
-                url:"https://www.linkedin.com/in/ahmad-raza-5b0646234/"
+                url:"https://www.linkedin.com/in/nalain-zahra-598763278/"
             }
         ]
     },
     {
-        name:"James White4",
-        degnization:"CEO & Founder",
-        img:team2,
-        socialLinks:[
-            {   name:"email",
-                icon: MdEmail,
-                url:"razarajpoot99598@gmail.com"
-            },
-            {
-                name:"linkedIn",
-                icon:FaLinkedin,
-                url:"https://www.linkedin.com/in/ahmad-raza-5b0646234/"
-            }
-        ]
-    },
-    {
-        name:"James White1",
-        degnization:"CEO & Founder",
+        name:"Ghulam Mustafa",
+        degnization:"Partner (Co-founder)",
         img:team3,
         socialLinks:[
             {   name:"email",
                 icon: MdEmail,
-                url:"razarajpoot99598@gmail.com"
+                url:"ghulammustafa1212@gmail.com"
             },
             {
                 name:"linkedIn",
@@ -53,5 +37,22 @@ export const teamData = [
                 url:"https://www.linkedin.com/in/ahmad-raza-5b0646234/"
             }
         ]
-    }
+    },
+    {
+        name:"Fatima Zahra",
+        degnization:"Partner (Co-founder)",
+        img:team2,
+        socialLinks:[
+            {   name:"email",
+                icon: MdEmail,
+                url:"fatimazeeshum@gmail.com"
+            },
+            {
+                name:"linkedIn",
+                icon:FaLinkedin,
+                url:"https://www.linkedin.com/in/fatima-zahra7/"
+            }
+        ]
+    },
+    
 ]

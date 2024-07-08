@@ -10,7 +10,7 @@ const ContactCard = ({data})=>{
         <div
         onMouseEnter={()=>setIsHover(curr=>!curr)}
         onMouseLeave={()=>setIsHover(curr=>!curr)}
-        className="w-[320px] h-[140px] rounded-md hover:-translate-y-2 ease-in-out duration-500 shadow-custom-light  flex gap-4 px-6  items-center">
+        className="w-[350px] h-[140px] rounded-md hover:-translate-y-2 ease-in-out duration-500 shadow-custom-light  flex gap-4 px-6  items-center">
 
             <div className={`w-[60px] h-[60px] ${isHover?"bg-indigo-500":"bg-gray-50"} ease-in-out duration-500 rounded-full flex justify-center items-center`}>
                 <data.icon size={24} color={`${isHover?"white":"blue"}`} />

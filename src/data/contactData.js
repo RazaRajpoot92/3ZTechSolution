@@ -6,17 +6,17 @@ export const contactData = [
     {
         title:"Mail Here",
         icon:IoMailOutline,
-        values:["admin@3ztechsolution.com","info@3ztechsolution.com"]
+        values:["nalainzahraofficial@gmail.com","zahra@3ztechsolutions.com"]
     },
     {
         title:"Visit Here",
         icon:GiPathDistance,
-        values:["Mustafa Town Lahore, Pakistan"]
+        values:["Wahdat Colony Lahore, Pakistan"]
     },
     {
         title:"Call Here",
         icon:LuPhone,
-        values:["03244209281","055433225"]
+        values:["+923704469890","+923265778232"]
 
     }
 ]

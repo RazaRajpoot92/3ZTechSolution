@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { RiMenu2Fill } from "react-icons/ri";
 import ServiceLabs from './ServiceLabs';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,11 +25,11 @@ const ServiceDetail = ({data, sec}) => {
                 }             
             </div>
 
-            <a href="#" className=' lg:self-start w-40 py-3 mt-6 duration-300 ease-in hover:bg-transparent hover:text-indigo-600 border font-semibold border-indigo-600 justify-center flex items-center gap-2 rounded-md text-white bg-indigo-600'>
+            <Link to={"/contact-us"} className=' lg:self-start w-40 py-3 mt-6 duration-300 ease-in hover:bg-transparent hover:text-indigo-600 border font-semibold border-indigo-600 justify-center flex items-center gap-2 rounded-md text-white bg-indigo-600'>
                 <RiMenu2Fill size={18} />
 
-                Read More
-                </a>
+                Get it now
+                </Link>
        
         </div>
 

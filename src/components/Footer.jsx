@@ -61,12 +61,12 @@ const getInTouch = [
   {
     name:"mobile",
     icon:FaPhoneAlt,
-    values:["+314-9442-515","+324-9442-515"]
+    values:["+923704469890","+923265778232"]
   },
   {
     name:"mail",
     icon: IoMdMail,
-    values:["hello@3ztechsolution.com","support@3ztechsolution.com"]
+    values:["nalainzahraofficial@gmail.com","zahra@3ztechsolutions.com"]
   }
 ]
 

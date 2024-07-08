@@ -33,8 +33,8 @@ export const servicesData = [
         iconBgColor:"bg-red-500"
     },
     {
-        title:"UI/UX Designing",
-        description:"Elevate your digital presence with our exceptional UI/UX design services. We create intuitive, visually stunning interfaces that enhance user engagement.",
+        title:"Lead Generation",
+        description:"Discover how our tailored solutions can propel your success. We specialize in transforming challenges into opportunities, leveraging innovative strategies to drive tangible results.",
         icon:SiTaichigraphics,
         iconBgColor:"bg-green-500"
     },
